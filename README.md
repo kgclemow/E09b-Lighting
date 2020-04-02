@@ -1,12 +1,8 @@
 # E09b-Lighting
 
+This exercise was completed for a C220 Game Technology class at Indiana University. It is the beginning of our learning process about 3D environments in games and specifically works with light and camera. The lighting techniques used in this include Directional light, omnilight, and adding/editing a skybox. The exercise takes place in Godot. 
+
 The purpose of this exercise is for you to explore 3D lighting and camera movement in Godot. There are many steps, and some of the concepts are a little complicated, so I would recommend that you stop and test frequently. I have tried to be as clear as possible.
-
-This exercise is loosely based on the How to light a 3d scene in Godot (3d tutorial) by GDQuest. The YouTube video is
-[available here](https://www.youtube.com/watch?v=iamttSmxA2I).
-
-
-This exercise is different from the GDQuest tutorial in distinct ways, so please follow the directions I provide. The video may help you to visualize anything you might find confusing, however.
 
 --- 
 
@@ -65,8 +61,3 @@ func _physics_process(delta):
 		zoom_speed *= -1
 ```
 
-Run the scene. The result should look something like this: 
-
-![Cabin example](https://github.com/BL-MSCH-C220-S20/E09b-Lighting/blob/master/cabin.gif)
-
-Save and commit your changes, Push the repository back to GitHub, and turn in a link to your repository on Canvas.
